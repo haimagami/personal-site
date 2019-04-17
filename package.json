@@ -1,0 +1,14 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/haimagami/personal-site.git",
+  "author": "Haim Agami <haim01@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "devDependencies": {
+    "sass": "^1.18.0"
+  }
+}

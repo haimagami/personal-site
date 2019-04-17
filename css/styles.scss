@@ -1,0 +1,9 @@
+$messagecolor: red;
+$bgcolor: powderblue;
+body {
+    background-color: $bgcolor;
+}
+h1 {
+    color: $messagecolor;
+    font-size: 8rem;
+}
