@@ -6,7 +6,11 @@
   "author": "Haim Agami <haim01@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^4.11.0"
+    "animejs": "^3.0.1",
+    "lib": "^4.0.2",
+    "node-sass": "^4.11.0",
+    "rxjs": "^6.5.2",
+    "rxjs-compat": "^6.5.2"
   },
   "devDependencies": {
     "sass": "^1.18.0"

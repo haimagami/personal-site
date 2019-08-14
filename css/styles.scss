@@ -1,9 +1,48 @@
-$messagecolor: red;
-$bgcolor: powderblue;
-body {
-    background-color: $bgcolor;
+$textcolor: #333;
+$bgcolor: #f9f9f9;
+$main-color: #E43568;
+
+@import url('https://rsms.me/inter/inter.css');
+
+html {
+  font-family: 'Inter', sans-serif;
+  background-color: $bgcolor;
+
 }
-h1 {
-    color: $messagecolor;
-    font-size: 8rem;
+
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+body {
+
+}
+.slice {
+  height: 100vh;
+}
+
+.marker {
+  opacity: 0;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: $textcolor;
+    font-size: 7rem;
+    font-weight: 700;
+    letter-spacing: -0.4rem;
+    line-height: 0.9;
+    margin: 0;
+    max-width: 400px;
+
+  }
+  p {
+    max-width: 500px;
+    font-size: 1.5rem;
+    margin: 0;
+    line-height: 1.5;
+  }
 }

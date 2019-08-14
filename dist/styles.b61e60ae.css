@@ -1,10 +1,46 @@
-body {
-  background-color: powderblue;
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+  background-color: #f9f9f9;
 }
 
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+
+#continer {
+  display: grid;
+  grid-template-rows: 4fr 6fr;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.slice {
+  height: 100vh;
+}
+
+.marker {
+  opacity: 0;
+}
+
+.hero {
+
+}
 h1 {
-  color: red;
-  font-size: 8rem;
+  color: #333;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 0.9;
+  margin: auto;
+  
+}
+p.text_l {
+  max-width: 500px;
+  line-height: 1.5;
+  margin: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
